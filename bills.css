@@ -1,0 +1,1219 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+    margin: 0;
+}
+
+a:link {
+  color: grey;
+    text-decoration-style: dotted;
+}
+
+a:visited {
+  color: grey;
+    text-decoration-style: dotted;
+}
+
+a:hover {
+  color: white;
+    text-decoration-style: dotted;
+}
+
+a:active {
+  color: grey;
+    text-decoration-style: dotted;
+}
+
+.footer {
+  z-index: 20;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100vw;
+   height: 4vh;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+@font-face {
+  font-family: "goodsansmedium";
+  src: url("GoodSans-Medium.woff") format("woff"),
+    url("GoodSans-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "goodsansthin";
+  src: url("GoodSans-Thin.woff") format("woff"),
+    url("GoodSans-Thin.otf") format("opentype");
+}
+
+div:focus {
+  background-color: black;
+  outline: 0px solid transparent;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+
+.highlight {
+filter: invert(1);
+}
+
+.highlight01 {
+  background-color: darkkhaki;
+}
+
+.highlight02 {
+  background-color: #FFC44D;
+}
+
+.highlight03 {
+  background-color: darksalmon;
+}
+
+#dropdown01 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown02 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown02a {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown02b {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown02a {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown02b {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03a {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03b {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03c {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03d {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03e {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03f {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03g {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03h {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown03i {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown04 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown05 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown05a {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown05b {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown05c {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown05a {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown05b {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown05c {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown06 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown06a {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown06b {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown06c {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown06d {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown06a {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown06b {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown06c {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown06d {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown07 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown08 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown08a {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown08b {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown08c {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown08a {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown08b {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown08c {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown09 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown09a {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown09b {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown09c {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown09a {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown09b {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown09c {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown10 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown10a {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown10b {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown10c {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown10a {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown10b {
+  width: 100%;
+  text-align: left;
+}
+
+#donedropdown10c {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown11 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown12 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown13 {
+  width: 100%;
+  text-align: left;
+}
+
+#dropdown14 {
+  width: 100%;
+  text-align: left;
+}
+
+.border00 {
+  padding: 3vw;
+  border-top: 0.25vw solid black;
+  border-left: 0.25vw solid black;
+  border-bottom: 0.25vw solid black;
+}
+
+.border01 {
+  padding: 3vw;
+  border-right: 0.25vw solid black;
+  border-bottom: 0.25vw solid black;
+}
+
+.border02 {
+  padding: 3vw;
+  border-left: 0.25vw solid black;
+  border-bottom: 0.25vw solid black;
+}
+
+.border03 {
+  padding: 3vw;
+  border-right: 0.25vw solid black;
+  border-bottom: 0.25vw solid black;
+}
+
+.button01 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button02 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button02a {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button02b {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.donebutton02a {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton02b {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.button03 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button03a {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03b {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03c {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03d {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03e {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03f {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03g {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03h {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button03i {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button04 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button05 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button05a {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button05b {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button05c {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.donebutton05a {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton05b {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton05c {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.button06 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button06a {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button06b {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button06c {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button06d {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.donebutton06a {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton06b {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton06c {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton06d {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.button07 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button08 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button08a {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button08b {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button08c {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.donebutton08a {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton08b {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton08c {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.button09 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button09a {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button09b {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button09c {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.donebutton09a {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton09b {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton09c {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.button10 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button10a {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button10b {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.button10c {
+  width: 100%;
+  padding: 0.75vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+  cursor: help;
+}
+
+.donebutton10a {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton10b {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.donebutton10c {
+  width: 100%;
+  padding: 1.5vw;
+  border: none;
+  background: none;
+  border: 0.25vw solid black;
+}
+
+.button11 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button12 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button13 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.button14 {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: s-resize;
+}
+
+.hoverable {
+  cursor: pointer;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 601px) {
+  div.bodytext {
+    font-size: 1.5rem;
+  }
+  div.subbodytext{
+    font-size: 1.1rem;
+  }
+  div.subbodytext2{
+    font-size: 1.1rem;
+  }
+  div.title{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.bodytext {
+    font-size: 1.1rem;
+  }
+  div.subbodytext{
+    font-size: 0.7rem;
+  }
+  div.subbodytext2{
+    font-size: 0.825rem;
+  }
+  div.title{
+    font-size: 1.1rem;
+  }
+}
+
+.bodytext {
+  font-size: 0.7rem;
+  line-height: 150%;
+  font-family: 'goodsansthin';
+}
+
+.subbodytext {
+  font-size: 0.7rem;
+    line-height: 175%;
+  font-family: 'goodsansthin';
+  text-align: left;
+  padding-top: 2vw;
+}
+
+.subbodytext2 {
+  font-size: 0.7rem;
+  font-family: 'goodsansthin';
+  padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.title {
+  font-size: 1.1rem;
+    line-height: 150%;
+  font-family: 'goodsansmedium';
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+}
+
+.shrink {
+  width: 100%;
+  max-width: 320px;
+}
+
+.info {
+  flex: 1;
+  padding-right: 1vw;
+}
+
+.main {
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.done {
+  margin: 0.3vw;
+  padding: 0.5vw;
+  border: 0.2vw solid black;
+}
+
+.needhelp {
+  margin: 0.3vw;
+  padding: 0.5vw;
+  border: 0.2vw solid black;
+}
+
+.btn {}
+
+input, ul.submenu {
+  display: none;
+}
+
+label {
+  position: relative;
+  display: inline;
+  cursor: pointer;
+}
+
+input:checked~ul.submenu {
+  display: inline;
+}
+
+.scrollbar4 {
+  height: 97vh;
+  width: 80vw;
+  overflow-y: scroll;
+}
+
+.scrollbar3 {
+  height: 97vh;
+  width: 85vw;
+  overflow-y: scroll;
+}
+
+.scrollbar2 {
+  height: 97vh;
+  width: 90vw;
+  overflow-y: scroll;
+}
+
+.scrollbar1 {
+  height: 97vh;
+  width: 95vw;
+  overflow-y: scroll;
+}
+
+.scrollbar0 {
+  height: 97vh;
+  width: 100vw;
+  overflow-y: scroll;
+}
+
+.force-overflow {
+  min-height: 125vh;
+}
+
+.textbox4 {
+  padding: 25px;
+  margin-left: 8.5vw;
+  margin-right: 8.5vw;
+}
+
+.textbox3 {
+  margin-left: 13.5vw;
+  margin-right: 8.5vw;
+  padding: 25px;
+}
+
+.textbox2 {
+  margin-left: 18.5vw;
+  margin-right: 8.5vw;
+  padding: 25px;
+}
+
+.textbox1 {
+  margin-left: 23.5vw;
+  margin-right: 8.5vw;
+  padding: 25px;
+}
+
+.textbox0 {
+  margin-left: 28.5vw;
+  margin-right: 8.5vw;
+  padding: 25px;
+}
+
+.storiesrow {
+  display: flex;
+}
+
+.storiescolumn {
+  flex: 50%;
+  padding-right: 10px;
+}
+
+#style0::-webkit-scrollbar-track {
+  background-color: darkslategray;
+}
+
+#style0::-webkit-scrollbar {
+  width: 5vw;
+  background-color: darkslategray;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: transparent;
+  border-bottom: 0.25vw solid black;
+}
+
+
+#style1::-webkit-scrollbar-track {
+  background-color: darksalmon;
+}
+
+#style1::-webkit-scrollbar {
+  width: 5vw;
+  background-color: darksalmon;
+}
+
+
+#style2::-webkit-scrollbar-track {
+  background-color: #FFC44D;
+}
+
+#style2::-webkit-scrollbar {
+  width: 5vw;
+  background-color: #FFC44D;
+}
+
+
+#style3::-webkit-scrollbar-track {
+  background-color: darkkhaki;
+}
+
+#style3::-webkit-scrollbar {
+  width: 5vw;
+  background-color: darkkhaki;
+}
+
+
+#style4::-webkit-scrollbar-track {
+  background-color: darkgray;
+}
+
+#style4::-webkit-scrollbar {
+  width: 5vw;
+  background-color: darkgray;
+}
+
+
+.tab, #tab0, #tab1, #tab2, #tab3, #tab4 {
+  height: 200%;
+  position: fixed;
+}
+
+.tab:hover~div, #tab0:hover~div, #tab1:hover~div, #tab2:hover~div, #tab3:hover~div, #tab4:hover~div {
+  transform: translateX(-75vw);
+}
+
+#tab0 {
+  width: 100vw;
+  background: darkslategray;
+  border-right: 0.25vw solid rgba(0, 0, 0, 1);
+}
+
+#tab0::after {
+  content: '';
+  background: darkslategray;
+  top: 100%;
+}
+
+#tab1 {
+  width: 95vw;
+  background: darksalmon;
+  border-right: 0.25vw solid rgba(0, 0, 0, 1);
+}
+
+#tab1::after {
+  content: '';
+  background: darksalmon;
+  top: 75%;
+}
+
+#tab2 {
+  width: 90vw;
+  background: #FFC44D;
+  border-right: 0.25vw solid rgba(0, 0, 0, 1);
+}
+
+#tab2::after {
+  content: '';
+  background: #FFC44D;
+  top: 50%;
+}
+
+#tab3 {
+  width: 85vw;
+  background: darkkhaki;
+  border-right: 0.25vw solid rgba(0, 0, 0, 1);
+}
+
+#tab3::after {
+  content: '';
+  background: darkkhaki;
+  top: 25%;
+}
+
+#tab4 {
+  width: 80vw;
+  background: darkgray;
+  border-right: 0.25vw solid rgba(0, 0, 0, 1);
+}
+
+#tab4::after {
+  content: '';
+  background: darkgray;
+  top: 0%;
+}
